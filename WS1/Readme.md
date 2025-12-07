@@ -27,12 +27,9 @@ This program takes two integer values and prints their sum. To do this it intera
   Uses the function included from asm_io to print the value to the user, this value actually comes from eax and not the value in result
 
 ![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/1-1-Terminal.PNG)
-<<<<<<< HEAD
-=======
 
 
 ---
->>>>>>> 9a6d2840ff16da0925a96f7c93dd692eab9f6ea2
 
 ## 2. `task1.2.asm` — Reading Two Integers and Summing
 
