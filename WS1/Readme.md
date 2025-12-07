@@ -28,7 +28,7 @@ This program takes two integer values and prints their sum. To do this it intera
 
 
 
-![[Pasted image 20251206180439.png]]
+
 ---
 
 ## 2. `task1.2.asm` — Reading Two Integers and Summing
@@ -66,7 +66,7 @@ In this program we start taking user input and then implement the same ideas as 
   The program then finishes by writing multiple outputs to the same line, constructing a sensible output from multiple memory references
 
 
-![[Pasted image 20251206180356.png]]
+
 
 ## 3. `task2.asm` — Welcome loop
 
@@ -144,9 +144,9 @@ The user is asked to input a string and an integer, the integer is then compared
   jumped to when the program completes without expected errors, signals the end of the program
   
 ---
-![[Terminal.png]]
-![[TerminalEdgeCases.png]]
-![[TerminalFailureCase.png]]
+
+
+
 ## 4. `task2.2.asm` — Summing a 100-Element Array
 
 In this program we setup an array and loop through it preforming an addition each time.
@@ -169,7 +169,7 @@ In this program we setup an array and loop through it preforming an addition eac
   Taking the value of the element pointed to by esi (initially the first element of the array) and preforming an addition to the value in eax and storing it in eax. 
   Then we add 4 to esi to point to the next element of the array.
   Then we loop back to the start of this section, this is preformed until ecx is 0 as covered in the previous task, this means it will loop 100 times.
-![[Pasted image 20251207132045.png]]
+
 
 ## 5. `task2.3.asm` — Summing a given range
 In this task we sum a range given by the user between 1 and 100.
@@ -182,8 +182,8 @@ The only new implementation seen in this program is having a variable loop lengt
     inc eax
     mov ecx, eax
 This code finds the length of the range being summed and places that value in the ecx register which is used when handling loops to determine their length.
-![[Pasted image 20251207135405.png]]
-![[Pasted image 20251207135538.png]]
+
+
 
 ## 6. Makefile and build commands
 
@@ -205,6 +205,5 @@ The makefile uses some simple rules to build the object files and executables se
   gcc -m32 src/driver.o src/assemblyio.o src/asm_io.o -o src/task1.1.exe
   This is the last line we will look at, this line builds an executable, instead of an object file, using multiple sources. Once again we are using gcc here and a 32 bit format.
 
-Overall this make file is used to efficiently build all the object files and subsequently executables out of the source files detailed above.![[Terminal1.1.png]]
-![[TerminalAll1.png]]
-![[TerminalAll2.png]]
+Overall this make file is used to efficiently build all the object files and subsequently executables out of the source files detailed above.
+
