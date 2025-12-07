@@ -26,10 +26,7 @@ This program takes two integer values and prints their sum. To do this it intera
 - `call print_int`  
   Uses the function included from asm_io to print the value to the user, this value actually comes from eax and not the value in result
 
-
-
-
----
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/1-1-Terminal.PNG)
 
 ## 2. `task1.2.asm` — Reading Two Integers and Summing
 
@@ -66,7 +63,7 @@ In this program we start taking user input and then implement the same ideas as 
   The program then finishes by writing multiple outputs to the same line, constructing a sensible output from multiple memory references
 
 
-
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/1-2-Terminal.PNG)
 
 ## 3. `task2.asm` — Welcome loop
 
@@ -144,6 +141,9 @@ The user is asked to input a string and an integer, the integer is then compared
   jumped to when the program completes without expected errors, signals the end of the program
   
 ---
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-1-Terminal.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-1-TerminalEdgeCases.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-1-TerminalFailureCase.PNG)
 
 
 
@@ -170,7 +170,7 @@ In this program we setup an array and loop through it preforming an addition eac
   Then we add 4 to esi to point to the next element of the array.
   Then we loop back to the start of this section, this is preformed until ecx is 0 as covered in the previous task, this means it will loop 100 times.
 
-
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-2-Terminal.PNG)
 ## 5. `task2.3.asm` — Summing a given range
 In this task we sum a range given by the user between 1 and 100.
 
@@ -183,7 +183,8 @@ The only new implementation seen in this program is having a variable loop lengt
     mov ecx, eax
 This code finds the length of the range being summed and places that value in the ecx register which is used when handling loops to determine their length.
 
-
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-3-Terminal.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/2-3-TerminalErrors.PNG)
 
 ## 6. Makefile and build commands
 
@@ -207,3 +208,6 @@ The makefile uses some simple rules to build the object files and executables se
 
 Overall this make file is used to efficiently build all the object files and subsequently executables out of the source files detailed above.
 
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/MF-Terminal1.1.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/MF-TerminalAll1.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS1/MF-TerminalAll2.PNG)
