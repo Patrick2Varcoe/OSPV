@@ -103,3 +103,8 @@ There are once again many C files used within this program, as there are many di
 ## loader.asm
 
 Used to initially set up the kernel and stack as well as to initialise the frame buffer, interrupts and to start the terminal.
+
+
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS2-2/TerminalStart.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS2-2/TerminalCommands1.PNG)
+![alt text](https://github.com/Patrick2Varcoe/OSPV/blob/master/WS2-2/TerminalNoCommand.PNG)
