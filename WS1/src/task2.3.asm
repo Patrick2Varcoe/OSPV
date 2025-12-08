@@ -1,5 +1,5 @@
 ; Include the assembly I/O library for input/output functions
-%include "asm_io.inc"
+%include "src/asm_io.inc"
 
 ; Data segment: defines initialized data
 segment .data

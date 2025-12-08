@@ -1,4 +1,4 @@
-%include "asm_io.inc"
+%include "src/asm_io.inc"
 
 section .data
     integer1        dd      15

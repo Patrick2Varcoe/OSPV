@@ -1,4 +1,4 @@
-%include "asm_io.inc"
+%include "src/asm_io.inc"
 segment .data
     prompt_name db "Enter your name: ", 0
     prompt_count db "Enter the number of times to print the welcome message (51-99): ", 0

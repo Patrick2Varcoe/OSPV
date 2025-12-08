@@ -1,4 +1,4 @@
-%include "asm_io.inc"
+%include "src/asm_io.inc"
 segment .data
     msg1 db "Enter a number: ", 0
     msg2 db "The sum of ", 0
