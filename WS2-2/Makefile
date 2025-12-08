@@ -73,7 +73,7 @@ os: kernel
 # Run in QEMU
 # --------------------------
 run: os.iso
-	qemu-system-i386 -display curses -monitor telnet::45454,server,nowait -serial mon:stdio -boot d -cdrom os.iso -m 32 -d cpu -D logQ.txt
+	qemu-system-i386 -display curses -monitor telnet::42986,server,nowait -serial mon:stdio -boot d -cdrom os.iso -m 32 -d cpu -D logQ.txt
 
 clean:
 	rm -f *.o *.elf os.iso
